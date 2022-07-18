@@ -1,0 +1,53 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color: rgba(0, 0, 0, 0.8);
+  background-color: #eee;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+canvas {
+  width: 100%;
+  height: 100vh;
+}
+
+.popup {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  width: 160px;
+  background: #55df0b;
+  background: #fe5011;
+  background: #fecf11;
+  background: #1169fe;
+  background: #222;
+  border-radius: 12px;
+  padding: 8px 12px;
+}
+
+.popup__dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  background: #fff;
+  margin-right: 8px;
+  margin-top: 7px;
+}
+
+.popup__content .content__title {
+  font-weight: 700;
+  color: #fff;
+}
+
+.popup__content .content__description {
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0;
+}
